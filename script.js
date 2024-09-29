@@ -24,8 +24,4 @@ form.addEventListener("submit", (e) => {
   let ageYears = currentDate.year - dobDate.year;
   let ageMonths = currentDate.month - dobDate.month;
   let ageDays = currentDate.date - dobDate.date;
-
-  resultYears.textContent = ageYears;
-  resultMonths.textContent = ageMonths;
-  resultDays.textContent = ageDays;
 });
